@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form>
+        <div>
+            <label for="username">Ingresa tu nombre de usuario:</label>
+            <input type="text" name="username" id="username" placeholder="John Doe">
+        </div>
+        <div>
+            <label for="password">Ingresa tu contrasena:</label>
+            <input type="password" name="contrasena" id="password">
+        </div>
+        <div>
+            <label for="password">Ingresa tu email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="pais">Ingresa un pais:</label>
+            <select name="pais" id="pais">
+                <option value="AR">ARGENTINA</option>
+                <option value="FR">FRANCIA</option>
+                <option value="NO" selected disabled>No seleccionado</option>
+            </select>
+        </div>
+        <div>
+            <label for="mensaje">Ingresa su mensaje:</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="30">
+            </select>
+        </div>
+
+        <div>
+            <input type="submit" value="Confirmar">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>
