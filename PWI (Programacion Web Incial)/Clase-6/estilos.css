@@ -1,0 +1,19 @@
+        h2 {
+            color: rgb(208, 0, 255);
+            font-size: 50px;
+        }
+
+        .subtitulo-especial {
+            color: greenyellow;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 80px;
+        }
+
+        * {
+            /* el asterisco es un selector universal.. llama a todos los elementos */
+            font-family: sans-serif;
+        }
+
+        #super-especial {
+            color: blue;
+        }
